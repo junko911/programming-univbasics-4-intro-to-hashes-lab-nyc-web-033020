@@ -1,6 +1,6 @@
 def new_hash
   # return an empty hash
-  {}
+  { }
 end
 
 def my_hash
@@ -15,6 +15,7 @@ end
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
+  {:id => 1}
 end
 
 def my_hash_creator(key, value)
